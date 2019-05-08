@@ -1,0 +1,9 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/socks?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver #\u53BB\u6389pom\u4E2D\u7684runtime\u5373\u53EF
+server:
+  port: 8082
